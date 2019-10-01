@@ -1,18 +1,23 @@
 # Stop_codon_usage
 
  Bo Pan
+ 
  1st Oct, 2019
+ 
  bopan@stu.ouc.edu.cn
+ 
  Comparative genomics analysis of ciliates provides insights on the evolutionary history within "Nassophorea-Synhymenia-Phyllopharyngea" assemblage
 
+------------------------------------------------------------------------------------------------------------------------------
+
 READ ME
+
 This series of workflow and scripts is suitable for finding the frequency of stop codon usage from RNA-seq(transcripts). 
 The process is as follows:
 
 1. Blastx search:
 Search the peptides from Uniprot database (completed proteins sequences, not partial) with mRNA(transcripts) sequences by blastx.
 e.g. blastx -db uniprot-ciliate-filter.fna -outfmt 6 -evalue 1.0e-10 -max_target_seqs 1 -num_threads 16 -query T_thermophila_transcripts.fasta -out T_thermophila_blast_pro.tab
-2.给blast结果做标记正负链以及比对上的长度（终止子比对到蛋白的末端）
 2. Mark the results:
 Mark results with the watson and crick strands and the length of alignment (for next step to filter)
 e.g. perl add_pro_len_and_plus_sus2blast_20180627.pl uniprot-ciliate-filter.fasta T_thermophila_blast_pro.tab T_thermophila_blast_pro_add_len.tab
