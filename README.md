@@ -41,8 +41,8 @@ e.g. perl 01_generate_matched_seqs.pl -i T_thermophila_June2014_CDS.fasta -l T_b
 
 5. Obtain the stop codon usage:
 
-perl 02_generate_stop_codon_seqs.pl -i T_matched.fa -l T_blast_pro_aa_end.txt -o T_stop_codon.fa
+e.g. perl 02_generate_stop_codon_seqs.pl -i T_matched.fa -l T_blast_pro_aa_end.txt -o T_stop_codon.fa
 
 6. Count the frequency of three types of stop codon usage:
 
-perl 03_frequency_stop_codon.pl T_stop_codon.fa T_frequency_stop_codon.txt
+e.g. perl 03_frequency_stop_codon.pl T_stop_codon.fa T_frequency_stop_codon.txt
