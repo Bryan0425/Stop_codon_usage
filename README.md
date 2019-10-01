@@ -46,3 +46,4 @@ e.g. perl 02_generate_stop_codon_seqs.pl -i T_matched.fa -l T_blast_pro_aa_end.t
 6. Count the frequency of three types of stop codon usage:
 
 e.g. perl 03_frequency_stop_codon.pl T_stop_codon.fa T_frequency_stop_codon.txt
+
