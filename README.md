@@ -1,9 +1,9 @@
 # Stop_codon_usage
 
-# Bo Pan
-# 1st Oct, 2019
-# bopan@stu.ouc.edu.cn
-# Comparative genomics analysis of ciliates provides insights on the evolutionary history within "Nassophorea-Synhymenia-Phyllopharyngea" assemblage
+ Bo Pan
+ 1st Oct, 2019
+ bopan@stu.ouc.edu.cn
+ Comparative genomics analysis of ciliates provides insights on the evolutionary history within "Nassophorea-Synhymenia-Phyllopharyngea" assemblage
 
 READ ME
 This series of workflow and scripts is suitable for finding the frequency of stop codon usage from RNA-seq(transcripts). 
