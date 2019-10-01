@@ -25,7 +25,7 @@ e.g. blastx -db uniprot-ciliate-filter.fna -outfmt 6 -evalue 1.0e-10 -max_target
 
 Mark results with the watson and crick strands and the length of alignment (for next step to filter).
 
-e.g. perl add_pro_len_and_plus_sus2blast_20180627.pl uniprot-ciliate-filter.fasta T_thermophila_blast_pro.tab T_thermophila_blast_pro_add_len.tab
+e.g. perl 00_add_pro_len_and_plus_sus2blast_20180627.pl uniprot-ciliate-filter.fasta T_thermophila_blast_pro.tab T_thermophila_blast_pro_add_len.tab
 
 3. Filter:
 
